@@ -1,5 +1,6 @@
 body {
   font-family: "Archivo", sans-serif;
+  width: 100%;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -261,7 +262,7 @@ Image credits: unsplash.com
 #testimonial {
   display: block;
 }
-#mobileTestimonial {
+#testimonialmobile {
   display: none;
 }
 
@@ -269,6 +270,13 @@ Image credits: unsplash.com
   display: block;
 }
 #getMobile {
+  display: none;
+}
+
+#googlemapframe {
+  display: block;
+}
+#googlemapmobile {
   display: none;
 }
 
@@ -290,7 +298,14 @@ Image credits: unsplash.com
   #testimonial {
     display: none;
   }
-  #mobileTestimonial {
+  #testimonialmobile {
+    display: block;
+  }
+
+  #googlemapframe {
+    display: none;
+  }
+  #googlemapmobile {
     display: block;
   }
 
@@ -332,5 +347,9 @@ Image credits: unsplash.com
   ::after,
   ::before {
     box-sizing: content-box !important;
+  }
+
+  .galleryFont {
+    font-size: 20px;
   }
 }

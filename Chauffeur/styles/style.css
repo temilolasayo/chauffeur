@@ -1,0 +1,336 @@
+body {
+  font-family: "Archivo", sans-serif;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #fff;
+}
+
+.navStyle {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.navStyle li a {
+  color: #ffffff !important;
+}
+
+.primaryColor {
+  color: #2131b6;
+}
+.primaryBgColor {
+  background: #2131b6;
+}
+.secondaryFont {
+  font-family: "Overpass", sans-serif;
+}
+
+.aboutFontSize {
+  font-size: 40px;
+  overflow-wrap: break-word;
+  width: 367px;
+}
+
+.aboutFontSize-mobile {
+  font-size: 32px;
+  overflow-wrap: break-word;
+}
+
+.aboutMiniFontSize-mobile {
+  overflow-wrap: break-word;
+  width: 500px;
+}
+
+.pricingFontSize {
+  overflow-wrap: break-word;
+}
+
+.aboutprimaryfont {
+  font-size: 20px;
+}
+.aboutprimaryfont-mobile {
+  font-size: 20px;
+}
+
+.quoteColor {
+  color: #2131b6;
+  font-weight: 600 !important;
+  font-size: 60px;
+  line-height: 42px;
+}
+
+.secondaryFontSize {
+  font-weight: 600;
+  font-size: 59px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  font-family: "Archivo", sans-serif;
+}
+
+.secondaryFontSize-mobile {
+  font-size: 32px;
+  line-height: 35px;
+  font-family: "Archivo", sans-serif;
+}
+
+#imageStyle {
+  overflow: hidden;
+}
+
+.imgTransform {
+  transform: translateX(10%);
+}
+
+/* Hero */
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cardOverlay {
+  background: #000000;
+  /* mix-blend-mode: multiply; */
+}
+
+.cardOverlay img {
+  opacity: 0.6;
+}
+
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+
+.carousel-inner .item {
+  height: 100vh;
+}
+.carousel-indicators > li {
+  margin: 0 2px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  opacity: 0.7;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+.carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2131b6;
+  border-color: #2131b6;
+  opacity: 1;
+}
+
+.hero {
+  width: 50% !important;
+  overflow-wrap: break-word;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  -moz-transform: translate3d(-50%, -50%, 0);
+  -ms-transform: translate3d(-50%, -50%, 0);
+  -o-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+
+/* Container holding the image and the text */
+.containers {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 16px;
+  width: 45%;
+  font-family: "Archivo", sans-serif;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
+
+/* Centered text */
+.centerTestimonial {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 25px;
+  line-height: 25px;
+}
+
+.removeBorder {
+  border: none;
+  font-family: "Overpass", sans-serif;
+}
+
+.blueLine {
+  border: 2px solid #2131b6;
+  width: 20%;
+}
+
+.contactPadding {
+  padding-right: 5% !important;
+}
+
+.greyBackground {
+  background-color: #f9f9fa;
+}
+
+.primaryPriceFont {
+  color: #52575c;
+}
+
+.contactFontSize {
+  font-size: #52575c;
+}
+
+.iframeStyle iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.textColor {
+  color: #25282b;
+}
+
+.footerBgColor {
+  background-color: #25282b;
+  font-size: 24px;
+}
+
+.galleryFont {
+  font-size: 24px;
+}
+
+/* @media screen and (min-width: 980px) {
+  .hero {
+    width: 980px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .hero h1 {
+    font-size: 4em;
+  }
+} */
+#about {
+  display: block;
+}
+
+#aboutmobile {
+  display: none;
+}
+
+#order {
+  display: block;
+}
+#ordermobile {
+  display: none;
+}
+
+#testimonial {
+  display: block;
+}
+#mobileTestimonial {
+  display: none;
+}
+
+#getDesktop {
+  display: block;
+}
+#getMobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    display: none;
+  }
+  #aboutmobile {
+    display: block;
+  }
+
+  #order {
+    display: none;
+  }
+  #ordermobile {
+    display: block;
+  }
+
+  #testimonial {
+    display: none;
+  }
+  #mobileTestimonial {
+    display: block;
+  }
+
+  #getDesktop {
+    display: none;
+  }
+  #getMobile {
+    display: block;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  #getMobile h1 {
+    font-size: 20px;
+  }
+
+  #mobilegallerysize img {
+    width: 100%;
+    height: auto;
+  }
+
+  #testimonialmobile p {
+    font-size: 10px;
+    line-height: 0px;
+    /* width: 100%; */
+  }
+
+  .centerTestimonial {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-80%, -60%);
+  }
+
+  *,
+  ::after,
+  ::before {
+    box-sizing: content-box !important;
+  }
+}

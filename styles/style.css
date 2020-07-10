@@ -30,6 +30,13 @@ body {
   font-family: "Overpass", sans-serif;
 }
 
+.contactIconPrimaryFont {
+  font-size: 11px;
+}
+.contactIconSecFont {
+  font-size: 14px;
+}
+
 .aboutFontSize {
   font-size: 40px;
   overflow-wrap: break-word;
@@ -106,11 +113,18 @@ body {
   opacity: 0.6;
 }
 
-/*
-Fade content bs-carousel with hero headers
-Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
-Image credits: unsplash.com
-*/
+.outerdiv {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /********************************/
 /*       Fade Bs-carousel       */
@@ -280,6 +294,19 @@ Image credits: unsplash.com
   display: none;
 }
 
+#desktopFonts {
+  display: block;
+}
+#mobileFonts {
+  display: none;
+}
+/* 
+@media screen and (min-width: 1440) {
+  nav {
+    display: block;
+  }
+} */
+
 @media screen and (max-width: 768px) {
   #about {
     display: none;
@@ -309,6 +336,13 @@ Image credits: unsplash.com
     display: block;
   }
 
+  #desktopFonts {
+    display: none;
+  }
+  #mobileFonts {
+    display: block;
+  }
+
   #getDesktop {
     display: none;
   }
@@ -325,7 +359,7 @@ Image credits: unsplash.com
     font-size: 20px;
   }
 
-  #mobilegallerysize img {
+  .mobilegallerysize img {
     width: 100%;
     height: auto;
   }
@@ -351,5 +385,11 @@ Image credits: unsplash.com
 
   .galleryFont {
     font-size: 20px;
+  }
+
+  .quoteMobileFont {
+    line-height: 1.5 !important;
+    color: #000000;
+    font-size: 12px !important;
   }
 }
